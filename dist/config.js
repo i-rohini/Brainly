@@ -1,4 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.JWT_PASSWORD = void 0;
-exports.JWT_PASSWORD = '1231234';
+exports.JWT_PASSWORD = "344rtffyyhj677";

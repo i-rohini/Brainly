@@ -35,7 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ContentModel = exports.UserModel = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
-mongoose_1.default.connect("mongodb://localhost:27017/brainly");
+mongoose_1.default.connect("mongodb+srv://rohini2garg1:dWtTJHBy2oMR2Mhd@cluster0.w8pwsdp.mongodb.net/Brainly");
 const UserSchema = new mongoose_1.Schema({
     username: { type: String, unique: true },
     password: String
