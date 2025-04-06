@@ -118,9 +118,6 @@ app.get("/api/v1/content", middleware_1.userMiddleware, (req, res) => __awaiter(
     res.json({
         content
     });
-    res.status(500).json({
-        error: "error"
-    });
 }));
 app.delete("/api/v1/content", middleware_1.userMiddleware, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const contentId = req.body.contentId;

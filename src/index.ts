@@ -121,11 +121,6 @@ app.get("/api/v1/content", userMiddleware, async (req, res) => {
   res.json({
     content
   })
-
-  res.status(500).json({
-    error: "error"
-  })
-  
 })
 
 app.delete("/api/v1/content", userMiddleware, async (req, res) => {
